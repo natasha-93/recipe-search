@@ -1,0 +1,22 @@
+.recipeCard {
+  margin: 1rem;
+  padding: 2rem;
+  justify-content: space-around;
+  display: block;
+  box-shadow: 3px 4px 5px 6px #e0afa0;
+  border-radius: 2%;
+  background-color: white;
+}
+
+.expandButton {
+  background-color: lightcoral;
+  color: black;
+  transition: 0.4;
+  border-radius: 10px;
+  opacity: 60%;
+  outline: none;
+}
+
+.expandButton:hover {
+  opacity: 100%;
+}
