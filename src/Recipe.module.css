@@ -15,6 +15,7 @@
   border-radius: 10px;
   opacity: 60%;
   outline: none;
+  display: block;
 }
 
 .expandButton:hover {

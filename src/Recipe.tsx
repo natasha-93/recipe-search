@@ -24,14 +24,14 @@ export default function Recipe({
       <p>Calories: {Math.floor(calories)}</p>
       {open && (
         <>
-          <img src={image} alt={image} />
-
-          <ol>
+          <ol className={styles.ingredientsList}>
             <strong>Ingredients:</strong>
             {ingredientLines.map((ingredient, index) => {
               return <li key={index}>{ingredient}</li>;
             })}
           </ol>
+
+          <img className={styles.image} src={image} alt={image} />
         </>
       )}
       <button
